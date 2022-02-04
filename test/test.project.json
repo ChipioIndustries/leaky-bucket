@@ -1,0 +1,30 @@
+{
+	"name": "package_name_here",
+	"tree": {
+		"$className": "DataModel",
+	
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$path": "shared",
+			"PACKAGE_NAME_HERE": {
+				"$path": "../default.project.json"
+			},
+			"DevPackages": {
+				"$path": "../DevPackages"
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "server"
+		},
+
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "client"
+			}
+		}
+	}
+}
