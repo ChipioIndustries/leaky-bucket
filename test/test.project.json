@@ -1,12 +1,12 @@
 {
-	"name": "package_name_here",
+	"name": "leaky-bucket",
 	"tree": {
 		"$className": "DataModel",
 	
 		"ReplicatedStorage": {
 			"$className": "ReplicatedStorage",
 			"$path": "shared",
-			"PACKAGE_NAME_HERE": {
+			"LeakyBucket": {
 				"$path": "../default.project.json"
 			},
 			"DevPackages": {

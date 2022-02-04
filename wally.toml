@@ -1,6 +1,6 @@
 [package]
-name = "username_here/package_name_here"
-description = "package_description_here"
+name = "chipioindustries/leaky-bucket"
+description = "A rate limiter with a buffer."
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"

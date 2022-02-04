@@ -35,7 +35,7 @@ jobs:
       - name: Build rbxm
         shell: bash
         run: |
-          rojo build default.project.json -o PACKAGE_NAME_HERE.rbxm
+          rojo build default.project.json -o LeakyBucket.rbxm
 
       - name: Copy Packages
         shell: bash
@@ -50,8 +50,8 @@ jobs:
       - name: Build zip
         shell: bash
         run: |
-          mv src PACKAGE_NAME_HERE
-          zip -r Packaged.zip PACKAGE_NAME_HERE
+          mv src LeakyBucket
+          zip -r Packaged.zip LeakyBucket
 
       - name: Get version
         id: get_version
@@ -67,5 +67,5 @@ jobs:
           body_path: log.md
           fail_on_unmatched_files: true
           files: |
-            PACKAGE_NAME_HERE.rbxm
+            LeakyBucket.rbxm
             Packaged.zip
