@@ -6,19 +6,6 @@
 
 LeakyBucket is a rate limiter with a buffer.
 
-## SETTING UP REPOSITORY (REMOVE THIS)
-
-* Copy this repository's contents into a new repository
-* Find and replace all instances of the following terms:
-
-|Term|Replace with|
-|-|-|
-|chipioindustries|your github username|
-|leaky-bucket|your package name|
-|LeakyBucket|your package name as it appears to users and as a Studio instance|
-|A rate limiter with a buffer.|your package description|
-|A rate limiter with a buffer.|your package tagline|
-
 * Copy the contents of your .wally/auth.toml file into a Github secret named "WALLY_AUTH"
 
 ## Installing with Wally
