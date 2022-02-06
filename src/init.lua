@@ -16,14 +16,19 @@ local DefaultConfig = require(script.DefaultConfig)
 function LeakyBucket.new(config: DefaultConfig.Config?)
 	config = Llama.Dictionary.join(DefaultConfig, config or {})
 
+	assert(config.leakRate > 0, "Leak rate must be greater than 0")
+	assert(math.floor(config.size) == config.size, "Bucket size must be an integer")
+
 	local self: table = {
 		_config = config;
 		_balance = 0;
 		_lastCalculation = tick();
-		overflowed = Signal.new;
+		overflowed = Signal.new();
 	}
 
 	setmetatable(self, LeakyBucket)
+
+	table.freeze(self._config)
 
 	return self
 end

@@ -5,9 +5,9 @@ export type Config = {
 }
 
 local defaultConfig: Config = {
-	fillWhenOverflowing = false;
-	leakRate = 1;
-	size = 5;
+	fillWhenOverflowing = true;
+	leakRate = 0.5;
+	size = 3;
 }
 
 return defaultConfig
