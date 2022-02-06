@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'LeakyBucket',
   tagline: 'A rate limiter with a buffer.',
-  url: 'https://chipioindustries.github.io/leaky-bucket',
+  url: 'https://chipioindustries.github.io',
   baseUrl: '/leaky-bucket/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
