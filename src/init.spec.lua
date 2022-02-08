@@ -86,6 +86,7 @@ return function()
 						local didOverflowedFire = false
 
 						local function onOverflowed(balance)
+							didOverflowedFire = true
 							if fillWhenOverflowing then
 								expect(balance).to.equal(size + 1)
 							else
