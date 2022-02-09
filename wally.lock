@@ -4,7 +4,7 @@ registry = "test"
 
 [[package]]
 name = "chipioindustries/leaky-bucket"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [["Llama", "freddylist/llama@1.1.1"], ["Signal", "chipioindustries/signal@1.0.1"]]
 
 [[package]]

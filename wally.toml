@@ -1,7 +1,7 @@
 [package]
 name = "chipioindustries/leaky-bucket"
 description = "A rate limiter with a buffer."
-version = "1.0.0"
+version = "1.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 

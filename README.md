@@ -11,7 +11,7 @@ LeakyBucket is a rate limiter with a buffer.
 * Add this line to your `wally.toml` file under `[dependencies]`:
 
 	```toml
-	LeakyBucket = "chipioindustries/leaky-bucket@1.0.0"
+	LeakyBucket = "chipioindustries/leaky-bucket@1.0.1"
 	```
 
 * Then run `wally install` to install the package.
