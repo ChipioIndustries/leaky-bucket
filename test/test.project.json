@@ -6,8 +6,12 @@
 		"ReplicatedStorage": {
 			"$className": "ReplicatedStorage",
 			"$path": "shared",
-			"LeakyBucket": {
-				"$path": "../default.project.json"
+			"Packages": {
+				"$className": "Folder",
+				"$path": "../Packages",
+				"LeakyBucket": {
+					"$path": "../default.project.json"
+				}
 			},
 			"DevPackages": {
 				"$path": "../DevPackages"

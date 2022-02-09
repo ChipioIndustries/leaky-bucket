@@ -6,16 +6,14 @@
 
 LeakyBucket is a rate limiter with a buffer.
 
-* Copy the contents of your .wally/auth.toml file into a Github secret named "WALLY_AUTH"
-
 ## Installing with Wally
 
 * Add this line to your `wally.toml` file under `[dependencies]`:
 
 	```toml
-	LeakyBucket = "chipioindustries/leaky-bucket@0.1.0"
+	LeakyBucket = "chipioindustries/leaky-bucket@1.0.0"
 	```
 
 * Then run `wally install` to install the package.
 
-For more installation methods and usage instructions, see the [documentation](https://chipioindustries.github.io/leaky-bucket).
+For usage instructions, see the [documentation](https://chipioindustries.github.io/leaky-bucket).

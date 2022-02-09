@@ -1,10 +1,6 @@
 {
 	"name": "leaky-bucket",
 	"tree": {
-		"$path": "src",
-		"Packages": {
-			"$className": "Folder",
-			"$path": "Packages"
-		}
+		"$path": "src"
 	}
 }

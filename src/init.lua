@@ -5,8 +5,8 @@
 	LeakyBucket.overflowed(balance)
 ]]
 
-local Llama = require(script.Packages.Llama)
-local Signal = require(script.Packages.Signal)
+local Llama = require(script.Parent.Llama)
+local Signal = require(script.Parent.Signal)
 
 local LeakyBucket = {}
 LeakyBucket.__index = LeakyBucket

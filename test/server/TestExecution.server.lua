@@ -4,7 +4,7 @@ local TestEZ = require(ReplicatedStorage.DevPackages.TestEZ)
 
 TestEZ.TestBootstrap:run(
 	{
-		ReplicatedStorage.LeakyBucket
+		ReplicatedStorage.Packages.LeakyBucket
 	},
 	TestEZ.Reporters.TextReporter
 )
